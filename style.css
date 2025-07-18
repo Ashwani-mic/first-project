@@ -1,1 +1,239 @@
+*{
+    margin:0;
+    font-family: arial;
+    border: border-box;
+}
 
+
+
+
+.navbar {
+     
+    height: 60px;
+    background-color:#0f1111;
+    color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+    
+}
+.navlogo {
+    height: 50px;
+   width: 100px;
+margin-top: 10px;
+margin-left: 10px;
+}
+.logo {
+    background-image: url("logo.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border: 2px solid transparent;
+}
+
+.border:havor {
+    border: 2px solid white;
+}
+.address {
+    font-size: .70rem;
+    color: #cccccc;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.add-icon {
+    display: flex;
+    align-items: centre;
+    align-self: center;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+.nav-search{
+    display: flex;
+    background-color: rgb(255, 174,0);
+     width: 600px;
+    height: 40px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    justify-content: space-evenly;
+    
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border-none; 
+}
+.search-icon{
+    width: 45px;
+   display: flex;
+   justify-content: center;
+   align-self: center;
+   font-size: 1.2rem;
+   color: #0f1111;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+    
+}
+.nav-sign{
+    font-size: .7rem;
+    
+
+}
+.nav-account{
+    font-size: .90rem;
+    font-weight: 700;
+}
+.cart i{
+    display: flex;
+    font-size: 30px;
+}
+
+.second{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.first p{
+    display: inline;
+    margin-left: 15px;
+    
+}
+.first{
+    width: 70%;
+    font-size: .90rem;
+
+}
+.hero-section{
+    background-image: url("Dubai_PC_Hero_3000x1200--1._CB559781786_.jpg");
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+    
+
+    
+}
+    .hero-message{
+        background-color: white;
+         color: black;
+         display: flex;
+         justify-content: center;
+         height: 40px;
+         align-items: center;
+         font-size: .90rem;
+         width: 80%;
+         margin-bottom: 25px;
+         
+         
+
+    }
+    .hero-message a{
+        color: #007185;
+    }
+    .shop-section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background-color: #e2e7e6;
+    }
+         .box{
+            border: 2px solid black;
+            height: 400px;
+            width: 23%;
+            background-color: white;
+            padding: 20px 0px 15px ;
+            margin-top: 15px;
+            
+         }
+         .box-image1{
+            background-image: url("download (2).jpeg");
+            background-size: cover;
+            height: 350px;
+         }
+         .box-content{
+            margin-left: 1rem;
+            margin-right: 1rem;
+         }
+         .box-content p {
+color: #007185;
+         }
+         .box-image2{
+            background-image: url("MF-3-186-116._SY116_CB636110853_.jpg");
+            background-size: cover;
+            height: 350px;
+         }
+         .box-image3{
+            background-image: url("MF-2-186-116._SY116_CB636110853_.jpg");
+            background-size: cover;
+            height: 350px;
+         }
+         .box-image4{
+            background-image: url("MF-4-186-116._SY116_CB636110853_.jpg");
+            background-size: cover;
+            height: 350px;
+         }
+         .foot-panel{
+            background-color: #37475a;
+            color: white;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 15px;
+
+         }
+        .foot-panel2{
+            background-color: #222f3d;
+            color: white;
+            height: 400px;
+            display: flex;
+            justify-content: space-evenly;
+
+        }
+        ul{
+            margin-top: 20px;
+
+        }
+        ul a {
+            display: block;
+            font-size: .90rem;
+            margin-top: 10px;
+            color: #dddddd;
+
+        }
+        .foot-panel3{
+            background-color: #0f1111;
+            color: white;
+            font-size: .75rem;
+            text-align: center;
+            
+            
+            
+          
+            height: 80px;
+        }
+        .pages{
+            
+            padding-top: 25px;
+        }
+        .copyright{
+            padding-top: 5px;
+        
+        }
